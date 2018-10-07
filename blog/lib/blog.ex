@@ -8,11 +8,11 @@ defmodule Blog do
 
   ## Examples
 
-      iex> Blog.hello()
-      :world
+      iex> Blog.hello('Your name here')
+      Hello, your name here!
 
   """
-  def hello do
-    :world
+  def hello(msg) do
+    "Hello, #{msg}!"
   end
 end
