@@ -3,6 +3,6 @@ defmodule BlogTest do
   doctest Blog
 
   test "greets the world" do
-    assert Blog.hello() == :world
+    assert Blog.hello('Test') == "Hello, Test!"
   end
 end

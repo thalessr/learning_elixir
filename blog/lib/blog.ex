@@ -9,7 +9,7 @@ defmodule Blog do
   ## Examples
 
       iex> Blog.hello('Your name here')
-      Hello, your name here!
+      "Hello, Your name here!"
 
   """
   def hello(msg) do
